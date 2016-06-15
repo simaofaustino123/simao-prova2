@@ -1,0 +1,22 @@
+body{
+    background-color: darkgray;
+}
+
+.produtos{
+    display: block;
+}
+
+
+
+label{
+    display: inline;
+}
+
+
+fieldset{
+    background-color: white;
+}
+
+legend{
+    font-size: 25px;
+}

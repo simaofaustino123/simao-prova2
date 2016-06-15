@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Products</title>
+</head>
+<body>
+       <form id="produtos" action="">
+           <fieldset class="cadastro">
+               <legend>Product</legend>           
+               <label for="">Name</label>
+               <input type="text" id="name">
+               <label for="">Price</label>
+               <input type="text" id="price">              
+               <input type="submit" value="Add">
+           </fieldset>
+       </form>
+   
+       <fieldset class="exibir">
+           <legend>Shopping Cart</legend>
+           <ul id="list-products"></ul>
+           <ul id="list-prices"></ul>
+           <legend></legend>
+           __________________________________________________________________
+           <br>
+           <label for="">Total</label>
+           <label id="total" for=""></label>
+       </fieldset>
+   
+   <script src="js/tableService.js"></script>
+   <script src="js/HTMLService.js"></script>
+   <script src="js/tableController.js"></script>
+      
+    
+</body>
+</html>
